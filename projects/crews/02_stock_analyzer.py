@@ -21,6 +21,7 @@ console = Console()
 llm = LLM(
     model="gemini/gemini-3.1-flash-lite",
     # model="openai/gpt-4.1-mini",
+    # model="groq/llama3-70b-8192",
     temperature=0.1,
 )
 # print(llm.call("Who won the English Premier League in 2022?"))
